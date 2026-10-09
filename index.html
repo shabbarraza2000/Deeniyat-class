@@ -94,6 +94,42 @@
       }
     }
 
+.textbook-download-btn {
+  position: fixed;
+  top: 70px;
+  right: 20px;
+
+  background-color: #2e7d32;
+  color: white;
+
+  padding: 10px 18px;
+  border-radius: 8px;
+
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+
+  z-index: 1000;
+
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.textbook-download-btn:hover {
+  background-color: #1b5e20;
+}
+
+@media (max-width: 600px) {
+
+  .textbook-download-btn {
+    top: 58px;
+    right: 12px;
+
+    padding: 8px 12px;
+    font-size: 0.9em;
+  }
+
+}
+    
   </style>
 </head>
 
@@ -106,7 +142,14 @@
     target="_blank">
     Student Portal
   </a>
-  
+
+ <!-- Textbook Download Button -->
+<a
+  href="deeniyat-textbook.pdf"
+  class="textbook-download-btn"
+  download>
+  Text book download
+</a> 
   <h1>FZIS Junior 2 Deeniyat Class Updates</h1>
 
   <p class="subtitle">
